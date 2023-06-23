@@ -12,5 +12,3 @@ cv2.circle(img,(400,50),(30),(255,0,255),3)  # in this we have to define image t
 cv2.putText(img,"opencv",(300,100),cv2.FONT_HERSHEY_SIMPLEX ,2,(1,150,0) , 1) # in we have to give image, what text to show , coordinate of the text , font of the text , scale , colour , thickness
 cv2.imshow("image",img)
 #fake
-
-cv2.waitKey(0)
