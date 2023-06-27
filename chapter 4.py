@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 img = cv2.imread('resources/images.jpg')
 
+
 # following is the code to stack any anumber of image to horizontally or vertically
 
 # def stackImages(scale,imgArray):
