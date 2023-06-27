@@ -46,6 +46,7 @@ def getCountours(img):
 
 path = "resources/shapes.png"
 
+
 img= cv2.imread(path)
 imgcountour =img.copy()
 
